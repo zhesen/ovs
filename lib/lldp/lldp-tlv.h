@@ -67,19 +67,23 @@
 
 #define LLDP_TLV_AA_ELEM_TYPE_UNKNOWN                            1
 #define LLDP_TLV_AA_ELEM_TYPE_SERVER                             2
-#define LLDP_TLV_AA_ELEM_TYPE_PROXY                              3
-#define LLDP_TLV_AA_ELEM_TYPE_SERV_NO_AUTH                       4
-#define LLDP_TLV_AA_ELEM_TYPE_PROXY_NO_AUTH                      5
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE1 6
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE2 7
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SWITCH                      8
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_ROUTER                      9
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_PHONE                    10
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_CAMERA                   11
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_VIDEO                    12
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SECURITY_DEVICE             13
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_VIRTUAL_SWITCH              14
-#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SERVER_ENDPOINT             15
+##define LLDP_TLV_AA_ELEM_TYPE_PROXY                              
+#define LLDP_TLV_AA_ELEM_TYPE_SERV_NO_AUTH                       3
+##define LLDP_TLV_AA_ELEM_TYPE_PROXY_NO_AUTH                      
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE1 4
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE2 5
+
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SWITCH                      6
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_ROUTER                      7
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_PHONE                    8
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_CAMERA                   9
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_IP_VIDEO                    10
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SECURITY_DEVICE             11
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_VIRTUAL_SWITCH              12
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SERVER_ENDPOINT             13
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SDN_CONTROLLER              14
+#define LLDP_TLV_AA_ELEM_TYPE_CLIENT_SPB_O_IP_DEVICE             15
+
 
 #define LLDP_TLV_AA_ELEM_CONN_TYPE_SINGLE     0
 #define LLDP_TLV_AA_ELEM_CONN_TYPE_MLT        1
