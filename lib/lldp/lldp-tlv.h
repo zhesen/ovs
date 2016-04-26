@@ -67,9 +67,9 @@
 
 #define LLDP_TLV_AA_ELEM_TYPE_UNKNOWN                            1
 #define LLDP_TLV_AA_ELEM_TYPE_SERVER                             2
-##define LLDP_TLV_AA_ELEM_TYPE_PROXY                              
+##define LLDP_TLV_AA_ELEM_TYPE_PROXY                             3 
 #define LLDP_TLV_AA_ELEM_TYPE_SERV_NO_AUTH                       3
-##define LLDP_TLV_AA_ELEM_TYPE_PROXY_NO_AUTH                      
+##define LLDP_TLV_AA_ELEM_TYPE_PROXY_NO_AUTH                     5
 #define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE1 4
 #define LLDP_TLV_AA_ELEM_TYPE_CLIENT_WIRELESS_ACCESS_POINT_TYPE2 5
 
